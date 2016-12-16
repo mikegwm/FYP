@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">FYP</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Homepagetitle">Sign in</string>
+    <string name="Usernametitle">Username</string>
+    <string name="Passwordtitle">Password</string>
+    <string name="UsernameTextbox">Username</string>
+    <string name="PasswordTextbox">Password</string>
+    <string name="LogInButton">Log in</string>
+    <string name="RegisterButton">Register</string>
+    <string name="LostPasswordButton">Lost Password</string>
+    <string name="Registerpagetitle">Register</string>
+    <string name="usernamereg">Username:</string>
+    <string name="emailreg">E-mail:</string>
+    <string name="Email">E-mail</string>
+    <string name="studentidreg">Student ID:</string>
+    <string name="studentid">Student ID</string>
+    <string name="Reg">Submit</string>
+    <string name="lostptitle">Lost Password</string>
+    <string name="emailadr">Email Address</string>
+    <string name="welcometxt">Welcome!</string>
+    <string name="action_new">New Topic</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="title_activity_edit_note">Add/Edit Post</string>
+    <string name="note_title_hint">Title</string>
+    <string name="note_content_hint">Content</string>
+    <string name="save_button">Post</string>
+    <string name="delete_button">Delete</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="edit_error_title">Error!</string>
+    <string name="edit_error_message">Yout cannot save a post wihtout a  title</string>
+    <string name="exit">Exit</string>
+
+</resources>

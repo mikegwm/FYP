@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/Registerpagetitle"
+        android:id="@+id/Reg_title"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/UsernameTextbox"
+        android:ems="10"
+        android:id="@+id/Usernameregg"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/Reg_title"
+        android:layout_alignStart="@+id/Reg_title" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/usernamereg"
+        android:id="@+id/usernamereg"
+        android:layout_alignTop="@+id/Usernameregg" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/Passwordregg"
+        android:hint="@string/PasswordTextbox"
+        android:layout_below="@+id/Usernameregg"
+        android:layout_alignStart="@+id/Usernameregg" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Password:"
+        android:id="@+id/passwordreg"
+        android:layout_alignTop="@+id/Passwordregg"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/emailreg"
+        android:id="@+id/Emailreg"
+        android:layout_alignTop="@+id/Email"
+        android:layout_alignStart="@+id/passwordreg" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/Email"
+        android:layout_below="@+id/Passwordregg"
+        android:layout_alignStart="@+id/Passwordregg"
+        android:hint="@string/Email" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Reg"
+        android:id="@+id/Reg"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:id="@+id/cancel_reg"
+        android:layout_below="@+id/Reg"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
